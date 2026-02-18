@@ -1,0 +1,8 @@
+[phases.install]
+cmds = ['yarn install']  # Or 'npm install' for npm
+
+[phases.build]
+cmds = ['yarn build']    # Or 'npm run build'
+
+[start]
+cmd = 'yarn start'       # Or 'npm run start'
